@@ -1,60 +1,7 @@
-
-/*let carrito = [];
+let carrito = [];
 //cargar carrito desde LS
 if(localStorage.getItem("carrito")){
     carrito =JSON.parse(localStorage.getItem("carrito"));
-}
-
-const contenedorTerapias = document.getElementById("contenedorTerapias");
-
-// mostrar terapias:
-
-const mostrarTerapias = () => {
-    terapias.forEach((terapias) => {
-        const card = document.createElement("div");
-        card.innerHTML = `
-        <div class= "tarjeta">
-        <img src="${terapias.img}" class= "tarjetaImg" alt=" ${terapias.producto}">
-        <h2>
-         ${terapias.producto}
-        </h2>    
-        <h3>
-        ${terapias.descripcion}
-        </h3>
-        <h3>
-        Precio: ${terapias.precio}
-        </h3>    
-        <button class="btn" id="boton${terapias.id}">Agregar al carrito</button>     
-        </div>
-    
-    `
-    contenedorTerapias.appendChild(card);
-     
-    //agregar productos al carrito
-    const boton = document.getElementById (`boton${terapias.id}`);
-    boton.addEventListener("click", () => {
-        console.log("click")
-       introducirAlCarro(terapias.id)
-        
-    })
-     
-    })
-  
-
-}
-mostrarTerapias();
-//funcion para agregar terapias al carrito:
-const introducirAlCarro = (id) =>{ 
-    const terapia = terapias.find((terapias) => terapias.id === id);
-    const productoEnCarrito= carrito.find((terapias) => terapias.id === id);
-if (productoEnCarrito){
-    productoEnCarrito.cantidad++;
-}else {
-    carrito.push(terapia);
-    //agregamos al localstorage
-    localStorage.setItem("carrito",JSON.stringify(carrito));
-    }
-    calcularTerapias();
 }
 
 //mostrar carrito
@@ -138,5 +85,4 @@ const calcularTerapias = () =>{
         totalCompra += terapias.precio * terapias.cantidad;
     })
     total.innerHTML = ` ${totalCompra}`;
-}*/
-
+}
