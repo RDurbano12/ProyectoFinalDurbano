@@ -78,3 +78,24 @@ function load(){
 function store (value){
     localStorage.setItem('darkmode',value);
 }
+
+//ordenar terapias de a-z y z-a:
+//const newterapias = terapias.slice()
+//console.log(newproductos)
+//console.log(terapias)
+//const alfabetico =[...newterapias].sort((a,b) =>{
+//    if(a.producto < b.producto){
+//        return -1
+//    } else if (a.producto > b.producto){
+//        return 1
+//    } else {
+//        return 0
+//    }
+//})
+//console.log (alfabetico)
+
+
+//mostrar ofertas
+//const filtrar = newproductos.filter((tera) =>{
+//    return tera.oferta === true
+//})

@@ -2,6 +2,10 @@ body.darkmode {
     background-color: black;
     color: aliceblue;
 };
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
 .tarjetaImg {
     align-items: center;
     width: 9em;
