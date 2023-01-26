@@ -1,3 +1,7 @@
+body.darkmode {
+    background-color: black;
+    color: aliceblue;
+};
 .tarjetaImg {
     align-items: center;
     width: 9em;
@@ -28,7 +32,7 @@ li {
 
 a {
 
-    color: $texto;
+    color: aliceblue;
     text-decoration: none;
 }
 
@@ -117,4 +121,6 @@ a:hover {
     background-color: #bdbaba;
     display: flex;
     justify-content: center;
-    padding-top: 20px; }
+    padding-top: 20px; };
+
+    
