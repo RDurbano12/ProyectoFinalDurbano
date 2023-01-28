@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +8,13 @@
     <link rel="stylesheet" href="../css/main.css">
     <title>Document</title>
 </head>
+
 <body>
     <nav>
         <div class="logo">
-            <img src="./multimedia/logo.png" alt="Logo" >
+            <img src="./multimedia/logo.png" alt="Logo">
         </div>
-    
+
         <ul class="ul">
             <li><a href="../index.html" class="ul-li-a">Home</a></li>
             <li><a href="./terapias.html" class="ul-li-a">Terapias</a></li>
@@ -21,56 +23,10 @@
             <button id="bdark">Modo oscuro</button>
         </ul>
     </nav>
-    <div class="formularios">
-        <section class="section1">
-            <form class="main-form">
-                <fieldset class="main-form-fieldset">
-                    <legend> solicita tu turno</legend>
-                    <div class="form-items">
-                        <label for="nombre_apellido">Nombre:</label>
-                        <input class="renglon" type="text" name="Nombre" />
-                    </div>
-                    <div class="form-items">
-                        <label for="nombre_apellido">Apellido:</label>
-                        <input class="renglon" type="text" name="Apellido" />
-                    </div>
-                    <div class="form-items">
-                        <label for="Email">Email:</label>
-                        <input class="renglon" type="email" name="Email" />
-                    </div>
-                    <div>
-                        <textarea class="texto">Decinos tus dias y horarios mas comodos </textarea>
-                    </div>
-                    <div>
-                        <input type="submit" name="Enviar" class="boton">
-                    </div>
+    <form id="contenedorForm">
 
-                </fieldset>
-            </form>
-        </section>
+    </form>
 
-        <section class="section2">
-            <form class="main-form">
-                <fieldset class="main-form-fieldset">
-                    <legend> Tu opinion nos importa</legend>
-                    <div class="form-items">
-                        <label for="Nombre">Nombre:</label>
-                        <input class="renglon" type="text">
-                    </div>
-                    <div class="form-items">
-                        <label for="nombre_apellido">Apellido:</label>
-                        <input class="renglon" type="text">
-                    </div>
-                    <div>
-                        <textarea class="texto">Dejanos tu opinion</textarea>
-                    </div>
-                    <div>
-                        <input class="boton" type="submit" value="Enviar">
-                    </div>
-                </fieldset>
-            </form>
-        </section>
-    </div>
     <script src="../js/terapias.js"></script>
     <script src="../js/contacto.js"></script>
     <footer class="footer">
@@ -83,4 +39,5 @@
                 class="fab fa-whatsapp-square"></i></a>
     </footer>
 </body>
+
 </html>
